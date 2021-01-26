@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title>Quiz The Last of US</title>
+        <title>Teemo Quiz</title>
         <meta name="title" content="Teemo Quiz" />
 
         {/* Open Graph / Facebook */}
