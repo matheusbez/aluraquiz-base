@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import Head from 'next/head';
+
 import db from '../db.json';
 import Widget from '../src/Components/Widget';
 import QuizBackground from '../src/Components/QuizBackground';
@@ -25,6 +27,24 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>Quiz The Last of US</title>
+        <meta name="title" content="Teemo Quiz" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type"  content="website" />
+        <meta property="og:url"   content="https://aluraquiz-base.matheusbez.vercel.app/" />
+        <meta property="og:title" content="Teemo Quiz" />
+        <meta property="og:image" content={db.bg} />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://aluraquiz-base.matheusbez.vercel.app/" />
+        <meta property="twitter:title" content="Teemo Quiz" />
+        <meta property="twitter:image" content={db.bg} />
+
+      </Head>
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
       <Widget>
@@ -47,5 +67,6 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/matheusbez/aluraquiz-base" />
     </QuizBackground>
+    </>
   );
 }
