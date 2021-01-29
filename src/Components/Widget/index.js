@@ -19,7 +19,7 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
-`
+`;
 
 Widget.Header = styled.header`
   display: flex;

@@ -1,4 +1,3 @@
-  
 import styled from 'styled-components';
 
 // src/components/Footer/index.js
