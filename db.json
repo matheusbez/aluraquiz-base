@@ -1,28 +1,61 @@
 {
     "bg": "https://game8.vn/media/202011/images/teemo-league-of-legends-wild-rift-uhdpaper_com-hd-8_1096.jpg",
-    "title": "Quiz CSS da Alura",
+    "title": "Teemo Quiz",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://64.media.tumblr.com/cc4ff2b5222f8405c200e622c3ace1ba/686256da602ef070-12/s640x960/67df73d0f16ba2344ac4dca7d1ca9ad5bd437fbe.gifv",
+        "title": "Qual o nome da habilidade ultimate de Teemo?",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Dardo ofuscante",
+          "Armadilha venenosa",
+          "Tiro tóxico",
+          "Mover depressa"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://64.media.tumblr.com/0ab7255212737b4662ead81ba6c06a0a/d2988a3628fdbf08-62/s500x750/c688aa99e48b1e675cb9f77f97fd0210c28538eb.gifv",
+        "title": "Quem tentou capturar teemo e os outros yordles na nova animação da Riot?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Graves",
+           "Twisted Fate",
+           "Corki",
+           "Lulu"
+        ]
+      },
+      {
+        "image": "https://64.media.tumblr.com/c41a575830a2e5138f570ba7efa279aa/ac438486f31a392e-dc/s500x750/1c241bf8083a8d94ae12577bfbcafb9838bb567e.gifv",
+        "title": "Qual desses yordles é considerado o(a) melhor amigo(a) de Teemo, com suspeitas de um possível romance?",
+        "answer": 3,
+        "alternatives": [
+           "Corki",
+           "Lulu",
+           "Rumble",
+           "Tristana"
+        ]
+      },
+      {
+        "image": "https://64.media.tumblr.com/7e452c5a75ac4530dbd4f9e139c575b0/tumblr_p201tvxg0u1tltr42o1_540.gifv",
+        "title": "Qual o nome da cidade natal de Teemo?",
+        "answer": 2,
+        "alternatives": [
+           "Demacia",
+           "Noxus",
+           "Bandópolis",
+           "Shurima"
+        ]
+      },
+      {
+        "image": "https://i.redd.it/t525bg9adb631.gif",
+        "title": "Quem chutou Teemo no clipe da música Mortal Reminder da banda Pentakill?",
+        "answer": 0,
+        "alternatives": [
+           "Karthus",
+           "Mordekaiser",
+           "Yorick",
+           "Sona"
         ]
       }
     ],
