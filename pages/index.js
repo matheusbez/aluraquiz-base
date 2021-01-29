@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 
 import db from '../db.json';
 // eslint-disable-next-line import/no-unresolved
-import QuizLogo from '../src/components/QuizLogo';
+import QuizLogo from '../src/Components/QuizLogo';
 import Widget from '../src/Components/Widget';
 import QuizBackground from '../src/Components/QuizBackground';
 import Footer from '../src/Components/Footer';
