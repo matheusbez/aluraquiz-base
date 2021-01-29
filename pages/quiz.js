@@ -3,11 +3,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
+import Widget from '../src/Components/Widget';
+import QuizLogo from '../src/Components/QuizLogo';
+import QuizBackground from '../src/Components/QuizBackground';
+import QuizContainer from '../src/Components/QuizContainer';
+import Button from '../src/Components/Button';
 
 function LoadingWidget() {
   return (
@@ -120,7 +120,7 @@ export default function QuizPage() {
     // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 4000);
+    }, 1 * 3000);
   // nasce === didMount
   }, []);
 
